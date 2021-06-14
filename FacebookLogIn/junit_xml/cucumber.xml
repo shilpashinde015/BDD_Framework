@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.855455">
+<testcase classname="Facebook Account SignUp" name="Signup for a facebook account from the fb home page" time="8.855455">
+<system-out><![CDATA[Given User has already opened the browser window............................passed
+When Browser is visible to user.............................................passed
+Then Enter the url and press enter..........................................passed
+And Signup page of facebook should appear...................................passed
+Then Enter "shivaansh.more@gmail.com""Shiva@123" in SignUpform..............passed
+And I click "Log In"........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

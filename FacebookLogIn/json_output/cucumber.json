@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Signup for a facebook account from the fb home page",
+        "description": "",
+        "id": "facebook-account-signup;signup-for-a-facebook-account-from-the-fb-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4229490165,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has already opened the browser window",
+            "match": {
+              "location": "NavigationtoFbSignUp.user_has_already_opened_the_browser_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 333345453,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is visible to user",
+            "match": {
+              "location": "NavigationtoFbSignUp.browser_is_visible_to_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1259340515,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the url and press enter",
+            "match": {
+              "location": "NavigationtoFbSignUp.enter_the_url_and_press_enter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21272532,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Signup page of facebook should appear",
+            "match": {
+              "location": "NavigationtoFbSignUp.signup_page_of_facebook_should_appear()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274523537,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter \"\"\"Shiva@123\" in SignUpform",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shivaansh.more@gmail.com",
+                  "offset": 7
+                },
+                {
+                  "val": "Shiva@123",
+                  "offset": 33
+                }
+              ],
+              "location": "NavigationtoFbSignUp.enter_in_SignUpform(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2737483203,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click \"Log In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log In",
+                  "offset": 9
+                }
+              ],
+              "location": "NavigationtoFbSignUp.i_click(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Account SignUp",
+    "description": "",
+    "id": "facebook-account-signup",
+    "keyword": "Feature",
+    "uri": "/home/pinky/Downloads/FacebookSignUp-master/src/main/java/Features/NavigationtoFbSignUp.feature"
+  }
+]
