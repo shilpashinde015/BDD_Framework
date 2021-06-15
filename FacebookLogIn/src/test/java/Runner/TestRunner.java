@@ -1,3 +1,5 @@
+
+
 package Runner;
 
 import org.junit.runner.RunWith;
@@ -6,13 +8,13 @@ import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features ="/home/pinky/Downloads/FacebookSignUp-master/src/main/java/Features/NavigationtoFbSignUp.feature",
-		glue = {"StepDefinitions"},
-		format = {"pretty","html:test-output","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
-		monochrome = true,
-		strict = true,
-		dryRun = false
-		)
+        features ="/home/pinky/Downloads/FacebookSignUp-master/src/main/java/Features/NavigationtoFbSignUp.feature",
+        glue = {"StepDefinitions"},
+        format = {"pretty","html:test-output","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
+        monochrome = true,
+        strict = true,
+        dryRun = false
+)
 public class TestRunner {
 
 }
